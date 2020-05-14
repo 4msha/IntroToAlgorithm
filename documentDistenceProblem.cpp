@@ -1,5 +1,6 @@
-/* ------------------------------------------------------------------------------------
-    * Document Distance Problem 
+
+/* ------------------------------------------------------------------------------------*/
+  /*  * Document Distance Problem 
          This problem calculates percentage similarity between two files.
     * Language used- C++
     * Function Used- 
@@ -9,7 +10,8 @@
         * void printMap(map<string,int> mapDoc)-- printing map
         * int countTotalWords(map<string,int> mapDoc)-- calculate total no. of words in the
           file.  
- -------------------------------------------------------------------------------------------*/
+          */
+ /*-------------------------------------------------------------------------------------------*/
 
 
 #include<bits/stdc++.h>

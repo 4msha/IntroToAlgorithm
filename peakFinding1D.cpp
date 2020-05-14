@@ -1,13 +1,13 @@
-/*----------------------------------------------------------------------------------------------------------------------
-    //*************************   Peak Finding Problem in One Dimension    *********************
-        * Definition of peak- array[x] is peak if array[x+1] ans array[x-1] are smaller than array[x]
-        * Language used- C++
-        * Function Used- 
-        * void inputFile(vector<int>& vec,int n)--input array function
-        * int peakFinding(vector<int>&vec,int n)-- takes in array and no. of elements as input then
-          return the peak of the array .
+// /*----------------------------------------------------------------------------------------------------*/
+//     //*************************   Peak Finding Problem in One Dimension    *********************
+//         * Definition of peak- array[x] is peak if array[x+1] ans array[x-1] are smaller than array[x]
+//         * Language used- C++
+//         * Function Used- 
+//         * void inputFile(vector<int>& vec,int n)--input array function
+//         * int peakFinding(vector<int>&vec,int n)-- takes in array and no. of elements as input then
+//           return the peak of the array .
 
------------------------------------------------------------------------------------------------------------------------*/
+// -----------------------------------------------------------------------------------------------------------------------*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -25,7 +25,7 @@ void inputFile(vector<int>& vec,int n){
 int peakFinding(vector<int>&vec,int n){
     int x=n/2;
     while(x<n&&x>=0){
-        if(x==0 || x ==n-1)
+        if(x==0 || x ==n-1)/* code */
         return vec[x];
         if(vec[x]<vec[x+1])
           x=x+x/2;
